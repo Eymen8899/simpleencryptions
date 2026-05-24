@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "simpleencryptions"
+version = "0.1.2"
+authors = [
+  { name="Eymen" },
+]
+description = "Basic encryption for your mini projects!"
+license = "MIT"
+requires-python = ">=3.7"
+dependencies = ["cryptography"]
+keywords = [
+  "encryption",
+  "hash",
+  "aes",
+  "xor",
+  "education"
+]
+readme = "README.md"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "Operating System :: OS Independent"
+]
